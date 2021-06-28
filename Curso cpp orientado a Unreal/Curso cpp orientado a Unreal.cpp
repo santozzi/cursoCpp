@@ -3,16 +3,20 @@
 
 #include <iostream>
 #include "Persona.h"
+#include "Profesional.h"
+
 int main()
 {
     
 
-    Persona persona;
+    Profesional persona;
     persona.setNombre("sergio");
     persona.setApellido("Antozzi");
     persona.setEmail("santozzi@gmail.com");
+    //persona.setSueldo(700);
 
-    std::cout << persona.toString();
+    std::cout << persona.toString()<<endl;
+    std::cout << persona.getSueldo();
 
 
 }
