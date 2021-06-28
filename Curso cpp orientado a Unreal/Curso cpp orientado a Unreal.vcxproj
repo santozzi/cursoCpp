@@ -140,6 +140,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Curso cpp orientado a Unreal.cpp" />
+    <ClCompile Include="Doctor.cpp" />
+    <ClCompile Include="Persona.cpp" />
+    <ClCompile Include="Profesional.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Doctor.h" />

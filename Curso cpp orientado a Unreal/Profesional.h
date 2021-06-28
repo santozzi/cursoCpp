@@ -5,15 +5,9 @@ protected:
 	float sueldo;
     
 public:
-	Profesional() {
-		this->sueldo = 500;
-	}
-	~Profesional() {}
+	Profesional();
+	~Profesional();
 
-	void setSueldo(float sueldo) {
-		this->sueldo = sueldo;
-	}
-	virtual float getSueldo() {
-		return sueldo;
-	}
+	void setSueldo(float sueldo);
+	virtual float getSueldo();
 };

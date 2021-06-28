@@ -2,9 +2,6 @@
 #include "Profesional.h"
 class Doctor : public Profesional{
 public:
-	virtual float getSueldo() override {
-		return sueldo + 500;
-
-	}
+	virtual float getSueldo() override;
 
 };

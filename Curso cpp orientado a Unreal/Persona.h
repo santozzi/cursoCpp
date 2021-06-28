@@ -11,31 +11,16 @@ protected:
 
 
 public:
-	Persona() {}
-	~Persona() {}
+	Persona();
+	~Persona();
 
-	void setNombre(string nombre) {
-		this->nombre = nombre;
-
-	}
-	void setApellido(string apellido) {
-		this->apellido = apellido;
-	}
+	void setNombre(string nombre);
+	void setApellido(string apellido);
    
-	void setEmail(string email) {
-		this->email = email;
-	}
-	string getNombre() {
-		return nombre;
-	}
-	string getApellido() {
-		return apellido;
-	}
-	string getEmail() {
-		return email;
-	}
-	string toString() {
-		return nombre + " " + apellido + " " + email;
-	}
+	void setEmail(string email);
+	string getNombre();
+	string getApellido();
+	string getEmail();
+	string toString();
 
 };
