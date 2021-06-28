@@ -1,2 +1,2 @@
 # cursoCpp
-Aprendiendo cpp con estructuras basicas
+Aprendiendo cpp con estructuras básicas
