@@ -142,6 +142,7 @@
     <ClCompile Include="Curso cpp orientado a Unreal.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Doctor.h" />
     <ClInclude Include="Profesional.h" />
     <ClInclude Include="Persona.h" />
   </ItemGroup>

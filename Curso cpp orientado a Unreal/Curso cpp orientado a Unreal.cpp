@@ -4,12 +4,13 @@
 #include <iostream>
 #include "Persona.h"
 #include "Profesional.h"
+#include "Doctor.h"
 
 int main()
 {
     
 
-    Profesional persona;
+    Doctor persona;
     persona.setNombre("sergio");
     persona.setApellido("Antozzi");
     persona.setEmail("santozzi@gmail.com");
@@ -17,6 +18,7 @@ int main()
 
     std::cout << persona.toString()<<endl;
     std::cout << persona.getSueldo();
+
 
 
 }

@@ -13,7 +13,7 @@ public:
 	void setSueldo(float sueldo) {
 		this->sueldo = sueldo;
 	}
-	float getSueldo() {
+	virtual float getSueldo() {
 		return sueldo;
 	}
 };
